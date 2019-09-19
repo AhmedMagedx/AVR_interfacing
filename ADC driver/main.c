@@ -5,7 +5,6 @@
  *      Author: Maged
  */
 
-//#include"stdio.h"
 #include"STD_TYPES.h"
 #include"BIT_MATHS.h"
 #include"delay.h"

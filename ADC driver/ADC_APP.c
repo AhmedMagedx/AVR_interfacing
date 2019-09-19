@@ -41,7 +41,6 @@ void ADC_vidInitialize(void)
 		#endif
 
 		 /* Single ended Channels*/
-		  ADMUX = 0;
 		  ADMUX |= ChannelNo;
 
 	/*	#if ADC_MODE == SINGLE_SHOT  */
