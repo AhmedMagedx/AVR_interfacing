@@ -5,11 +5,13 @@
  *      Author: Maged
  */
 
-#include"ADC_config.h"
 #include"BIT_MATHS.h"
+#include"STD_TYPES.h"
 #include"Register.h"
-#include"ADC_interface.h"
 #include"DIO_INTERFACE.h"
+#include"ADC_interface.h"
+#include"ADC_config.h"
+
 
 void ADC_vidInitialize(void)
 {

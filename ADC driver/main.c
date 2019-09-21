@@ -39,8 +39,8 @@ void main()
 	{
 
 		value = ADC_u16Read_blocked();
-		value = (value*5000) / 1024 ;
-
+		//value = value*(5000) / 1024 ;   // BIG ERROR
+		value = ((value*(5000UL)) / 1024) ;
 
 		/* make initial statue OFF for LEDs*/
 		DIO_vidSetPinValue(DIO_U8_PORTA, RED_LED,    DIO_U8_LOW);
